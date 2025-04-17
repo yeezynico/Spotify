@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+
+#root {
+ 
+  text-align: center;
+}
+
+
+
+body{
+  background: #9493a5;
+}
+.neumorph {
+border-radius: 28px;
+background: #9493a5;
+box-shadow:  20px 20px 60px #63626f,
+             -20px -20px 60px #c5c4db;
+}
+
+/* #030124; */
