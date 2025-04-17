@@ -10,8 +10,8 @@ app.use(express.json());
 
 const db = mysql.createConnection({
     host: 'localhost',
-    user: 'bbammez',
-    password: '2015',
+    user: '',
+    password: '',
     database: 'spotify',
 });
 
@@ -114,11 +114,6 @@ app.get('/api/user/:email',  (req, res) => {
 
     });
 });
-
-
-
-
-
 
 app.listen(8081, () => {
     console.log('serveur démarré sur le port 8081');
